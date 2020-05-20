@@ -1,0 +1,23 @@
+{
+  "name": "ChatApp",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "homepage": "https://meghanar121.github.io/ChatApp",
+  "scripts": {
+    "deploy":"gh-pages -d build",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Meghana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
